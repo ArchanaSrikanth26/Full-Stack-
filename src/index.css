@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap');
+
+:root {
+  color-scheme: light;
+  --bg: #f6efe8;
+  --surface: #fffaf5;
+  --surface-soft: #f6ece1;
+  --ink: #221910;
+  --text: #6f6158;
+  --muted: #8c8078;
+  --border: rgba(120, 89, 60, 0.16);
+  --accent: #d48a54;
+  --accent-deep: #8f5630;
+  --heading: 'Cormorant Garamond', Georgia, serif;
+  --body: 'Manrope', 'Segoe UI', sans-serif;
+  --shadow-lg:
+    0 28px 60px rgba(57, 36, 22, 0.08), 0 10px 24px rgba(57, 36, 22, 0.06);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--body);
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(246, 220, 193, 0.8), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(195, 224, 211, 0.75), transparent 24%),
+    linear-gradient(180deg, #fffdfb 0%, var(--bg) 100%);
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#root {
+  min-height: 100vh;
+}
